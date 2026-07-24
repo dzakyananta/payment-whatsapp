@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# WhatsApp session (berisi data login WA pribadi)
+wa-session/
+
+# Environment variables (berisi API keys rahasia)
+.env
+
+# Google Service Account credentials (RAHASIA!)
+credentials.json
+
+# Gambar QRIS merchant (opsional, bisa diupload jika mau)
+qris-statis.jpeg
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
